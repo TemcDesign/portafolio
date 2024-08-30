@@ -1,13 +1,13 @@
 ---
 title: "JavaScript:Funciones y ambito de las variables"
 description: "Funciones y Comprendiendo Variables"
-pubDate: 'Apr 13 2024'
-heroImage: "../img/monachina2.jpg"
+pubDate: "Apr 13 2024"
+heroImage: "/portafolio/img/monachina2.jpg"
 ---
 
 ## JavaScript: Explorando Funciones y Comprendiendo Variables
 
-![javascript image](/img/monachina2.jpg)
+![javascript image](/portafolio/img/monachina2.jpg)
 
 En esta segunda entrega de nuestra guía práctica de JavaScript, nos sumergiremos en el fascinante mundo de las funciones y exploraremos las sutilezas entre `var`, `let` y `const`. Prepárate para desentrañar estos conceptos cruciales en tu viaje por el desarrollo web.
 
@@ -50,7 +50,7 @@ let resultado = sumar(3, 5);
 #### Funciones Anónimas
 
 ```javascript
-let saludar = function(nombre) {
+let saludar = function (nombre) {
   console.log(`¡Hola, ${nombre}!`);
 };
 

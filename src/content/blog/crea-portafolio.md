@@ -2,10 +2,10 @@
 title: "JavaScript:Crea tu portafolio con astro"
 description: "Funciones y Comprendiendo Variables, soy el post más nuevo"
 pubDate: "Apr 26 2024"
-heroImage: "../img/monachina.jpg"
+heroImage: "/portafolio/img/monachina.jpg"
 ---
 
-![javascript image](/img/monachina.jpg)
+![javascript image](/Portafolio/img/monachina.jpg)
 
 En esta segunda entrega de nuestra guía práctica de JavaScript, nos sumergiremos en el fascinante mundo de las funciones y exploraremos las sutilezas entre `var`, `let` y `const`. Prepárate para desentrañar estos conceptos cruciales en tu viaje por el desarrollo web.
 

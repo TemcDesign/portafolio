@@ -17,7 +17,7 @@
  */
 export const portafolioData = [
   {
-    imgSrc: "../../../public/img/ThreeInLine.jpg",
+    imgSrc: "/portafolio/img/ThreeInLine.jpg",
     title: "Juego",
     skills: ["React", "StyledComponents"],
     descripcion:
