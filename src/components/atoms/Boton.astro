@@ -1,0 +1,27 @@
+---
+import '../hero/hero.css';
+const { href, texto } = Astro.props;
+---
+
+<a class="primary button" href={href}>{texto}</a>
+
+<style>
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1.1rem 2.2rem;
+		background: #2a2a72;
+		border-radius: 100px;
+		font-size: var(--text-x-large);
+		transition: 0.35s opacity;
+		max-width: max-content;
+		color: #fff;
+	}
+	.button:hover {
+		opacity: 0.8;
+	}
+	.button:active {
+		opacity: 0.2;
+	}
+</style>

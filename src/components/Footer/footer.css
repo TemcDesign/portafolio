@@ -1,0 +1,31 @@
+footer {
+  width: 100%;
+  background: #dadada;
+  display: flex;
+  justify-content: space-between;
+  min-height: 20dvh;
+  color: #2a2a72;
+  align-items: center;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
+  h3 {
+    font-size: var(--text-title);
+  }
+  h2 {
+    font-size: var(--text-general);
+  }
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: var(--text-large);
+}

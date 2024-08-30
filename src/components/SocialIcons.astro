@@ -1,0 +1,78 @@
+---
+const {width, height} = Astro.props;
+const socialLinks = [
+	{
+		title: 'LinkedIn',
+		icon: 'simple-icons:linkedin',
+		href: 'https://www.linkedin.com/in/thomas-mujica-487567aa/',
+
+	},
+	{
+		title: 'Instagram',
+		icon: 'mdi:instagram',
+		href: 'https://www.instagram.com/temc_design',
+
+	},
+	{
+		title: 'Tiwtter',
+		icon: 'ri:twitter-x-fill',
+		href: 'https://twitter.com/home',
+
+	},
+	{
+		title: 'CV',
+		icon: 'tabler:file-cv',
+		href: '../docs/cv_Thomas_Mujica.pdf',
+
+	},
+];
+---
+
+<div class="icons__container">
+    {
+        socialLinks.map((data) => (
+            <a
+                href={data.href}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+            >
+                <iconify-icon
+					          class=`skill__icon ${data.title}`
+                    icon={data.icon}
+                    width={width}
+                    height={height}
+                />
+            </a>
+        ))
+    }
+</div>
+
+<style>
+	.icons__container {
+		display: flex;
+    width: 29.6rem;
+    /* padding: 1.3rem 4rem; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.skill__icon{
+	color:#707070;
+}
+
+	.LinkedIn:hover{
+		color: #0e76a8;
+	}
+	.Instagram:hover{
+	color: #ffae9a;
+	}
+	.Tiwtter:hover{
+	color: #000000;
+	}
+	.CV:hover{
+		color:#2a2a72;
+	}
+
+
+
+</style>

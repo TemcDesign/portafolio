@@ -1,0 +1,55 @@
+---
+import Title from './atoms/Title.astro';
+import { getPortafolioData} from "../components/data/portafolioData.js"
+import Card from './card-portafolio/CardPortafolio.astro';
+---
+
+<section
+	id="portafolio"
+  class='portfolio'
+>
+	<div class="portfolio__container">
+		<Title contenido="Portafolio" />
+		<div class="portfolio__elements">
+			{getPortafolioData.map((props) => <Card {...props} />)}
+		</div>
+	</div>
+</section>
+
+<style>
+  .portfolio{
+  display: flex;
+  max-width: calc(var(--max-width) + 2.2rem);
+  padding: 1.1rem;
+  gap: 2.2rem;
+  margin: 4rem auto;
+  }
+
+	.portfolio__elements {
+		max-width: var(--max-width);
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 4rem;
+	}
+</style>
+
+<script>
+	import { getIMGAverageColor } from '../utils/average-img-color/average-img-color';
+
+	const $cards = document.querySelectorAll('.card__portfolio');
+	$cards.forEach((card) => {
+		const $container = card.querySelector<HTMLDivElement>(
+			'.descripcion__container'
+		);
+		const $img = card.querySelector('img');
+		if (!$img || !$container) return;
+
+		const setBg = () => {
+			const [rbgString] = getIMGAverageColor($img, 0.7);
+			$container.style.background = rbgString;
+		};
+		setBg();
+		$img.onload = setBg;
+	});
+</script>

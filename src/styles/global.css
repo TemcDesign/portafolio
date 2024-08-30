@@ -1,0 +1,116 @@
+:root {
+  /* color  */
+  --primary-0: #4392f1;
+  --primary-10: #579bed;
+  --primary-20: #6da9f2;
+  --primary-30: #7fb3f2;
+  --primary-40: #7fb3f2;
+  --primary-50: #a9caf2;
+  --primary-60: #bdd4ef;
+  --primary-70: #ceddef;
+  --primary-80: #d3dfed;
+  --primary-90: #dbe2eb;
+  --primary-95: #e6e7e8;
+  --primary-99: #efefef;
+  --primary-100: #ffffff;
+  --secondary-0: #dc493a;
+  --secondary-10: #e15747;
+  --secondary-20: #dc6457;
+  --secondary-30: #dc7165;
+  --secondary-40: #e3877c;
+  --secondary-50: #e59991;
+  --secondary-60: #d99e97;
+  --secondary-70: #dbafaa;
+  --secondary-80: #debebb;
+  --secondary-90: #dccbc9;
+  --secondary-95: #e0d9d9;
+  --secondary-99: #dedede;
+  --secondary-100: #f4f4f4;
+
+  /* colores de las propiedades */
+  --surface: #ece8ef;
+  --surface-variant: #e3ebff;
+  --surface-dim: #e7f0ff;
+  --surface-bridge: #adcafb;
+
+  --primary: var(--primary-60);
+  --on-surface-primary: var(--primary-10);
+  --on-primary: #2a2a72; /* Modificar a variable */
+
+  --secndary: var(--secondary-70);
+  --on-surface-secondary: var(--secondary-95);
+  --on-secondary: var(--secondary-95);
+
+  /* texto  */
+  --text-small: 1.2rem;
+  --text-medium: 1.4rem;
+  --text-large: 1.6rem;
+  --text-x-large: 2rem;
+  --text-xx-large: 3.1rem;
+  --text-xxx-large: 4.4rem;
+  --text-title: 2rem;
+  --text-general: 1.6rem;
+  --text-button: 1.2rem;
+  --font-montserrat: "Montserrat", sans-serif;
+  --max-width: 108rem;
+  --site-bg: linear-gradient(
+    -54deg,
+    var(--primary-100),
+    var(--secondary-100),
+    var(--primary-100)
+  );
+
+  --text-gradient: radial-gradient(
+    circle farthest-corner at center center,
+    #2a2a7259 0%,
+    #2a2a72 100%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-montserrat) !important;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background: var(--site-bg) no-repeat;
+  animation: presentation 3s linear forwards;
+}
+
+main {
+  align-self: center;
+}
+
+p {
+  color: #707070;
+  font-size: var(--text-general);
+}
+
+.color__gradiente {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.max__width {
+  max-width: 117.8rem;
+}
+
+@keyframes presentation {
+  0% {
+    background-size: 200%;
+  }
+  50% {
+    background-position: 70%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
