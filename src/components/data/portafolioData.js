@@ -22,7 +22,7 @@ export const portafolioData = [
     skills: ["React", "StyledComponents"],
     descripcion:
       "Juego tres en linea, conocido pasatiempo para dos personas en que gana el primero en poner tres marcas en línea, usualmente círculos y cruces, dentro de una cuadrícula de tres casillas de ancho por tres de alto.",
-    demoURL: "",
+    demoURL: "https://three-in-line-lovat.vercel.app/",
     repoURL: "https://github.com/TemcDesign/three-in-line.git",
     anim: "fade-right",
   },
