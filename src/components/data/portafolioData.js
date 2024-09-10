@@ -27,14 +27,13 @@ export const portafolioData = [
     anim: "fade-right",
   },
   {
-    imgSrc:
-      "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg",
-    title: "E-commerce",
-    skills: ["JavaScript", "Bootstrap"],
+    imgSrc: "/portafolio/img/DashboardTemc.png",
+    title: "Dashboard",
+    skills: ["React", "StyledComponents"],
     descripcion:
-      " Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-    demoURL: "",
-    repoURL: "",
+      "Temc Dashboard proyecto creado gracias a la ayuda de NextJs y Vercel. Posee Inicio de sesion, creacion de facturas y muchas cosas mas.",
+    demoURL: "https://temc-dashboard.vercel.app/dashboard",
+    repoURL: "https://github.com/temc2412/temc-dashboard",
     anim: "fade-up",
     averageBrightness: 0.1,
   },
