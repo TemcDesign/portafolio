@@ -32,7 +32,7 @@ export const portafolioData = [
     skills: ["NextJS", "React", "JavaScript", "Tailwind", "CSS"],
     descripcion:
       "Temc Dashboard proyecto creado gracias a la ayuda de NextJs y Vercel. Posee Inicio de sesion, creacion de facturas y muchas cosas mas.",
-    demoURL: "https://temc-dashboard.vercel.app/dashboard",
+    demoURL: "https://temc-dashboard.vercel.app/",
     repoURL: "https://github.com/temc2412/temc-dashboard",
     anim: "fade-up",
     averageBrightness: 0.1,
