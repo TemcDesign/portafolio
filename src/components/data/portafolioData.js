@@ -19,7 +19,7 @@ export const portafolioData = [
   {
     imgSrc: "/portafolio/img/ThreeInLine.jpg",
     title: "Juego",
-    skills: ["React", "StyledComponents"],
+    skills: ["NextJS", "React", "JavaScript", "Tailwind", "CSS"],
     descripcion:
       "Juego tres en linea, conocido pasatiempo para dos personas en que gana el primero en poner tres marcas en línea, usualmente círculos y cruces, dentro de una cuadrícula de tres casillas de ancho por tres de alto.",
     demoURL: "https://three-in-line-lovat.vercel.app/",
@@ -29,7 +29,7 @@ export const portafolioData = [
   {
     imgSrc: "/portafolio/img/DashboardTemc.png",
     title: "Dashboard",
-    skills: ["React", "StyledComponents"],
+    skills: ["NextJS", "React", "JavaScript", "Tailwind", "CSS"],
     descripcion:
       "Temc Dashboard proyecto creado gracias a la ayuda de NextJs y Vercel. Posee Inicio de sesion, creacion de facturas y muchas cosas mas.",
     demoURL: "https://temc-dashboard.vercel.app/dashboard",
@@ -38,47 +38,44 @@ export const portafolioData = [
     averageBrightness: 0.1,
   },
   {
-    imgSrc:
-      "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-    title: "Coffe Store",
-    skills: ["React", "CSS"],
+    imgSrc: "/portafolio/img/havenStudio2.jpg",
+    title: "Diseño Marca",
+    skills: ["Photoshop", "Illustrator"],
     descripcion:
-      "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-    demoURL: "",
-    repoURL: "",
+      "Creacion de identidad de la empresa Haven Studio dedicada al rubro de la belleza, aqui podras visualizar el trabajo realizado y las directrices entregadas al cliente para el debido uso de su marca",
+    demoURL: "/portafolio/docs/DirectricesHavenStudio.pdf",
+    repoURL: "https://github.com/TemcDesign/MarcaHaven",
     anim: "fade-left",
   },
   {
-    imgSrc:
-      "https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500",
-    title: "Coffe Store",
-    skills: ["React", "CSS"],
+    imgSrc: "/portafolio/img/haven.jpg",
+    title: "Prototipo - Diseño UI",
+    skills: ["Photoshop", "Illustrator", "Figma"],
     descripcion:
-      "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-    demoURL: "",
-    repoURL: "",
+      "Creacion de prototipo en la herramienta Figma para el cliente Haven Studio, manejando los mismos colores que se recomendaron en las directrices de la marca",
+    demoURL:
+      "https://www.figma.com/design/vu2bOZVAZvVklHnR0pufr6/Web-Site?node-id=0-1&node-type=canvas&t=qKYSWKhkg0d762TR-0",
+    repoURL: "https://github.com/TemcDesign/prototipoMarcaHaven",
     anim: "fade-left",
   },
   {
-    imgSrc:
-      "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-    title: "Coffe Store",
-    skills: ["React", "CSS"],
+    imgSrc: "/portafolio/img/morada.jpg",
+    title: "Morada - Diseño UI-UX",
+    skills: ["Photoshop", "Illustrator", "Figma"],
     descripcion:
-      "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-    demoURL: "",
-    repoURL: "",
+      "Proyecto utilizado como practica en Next University para la obtencion del certificado de diseñador UI-UX",
+    demoURL: "/portafolio/docs/morada.pdf",
+    repoURL: "https://github.com/TemcDesign/proyectoMorada",
     anim: "fade-left",
   },
   {
-    imgSrc:
-      "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png",
-    title: "Restaurant",
-    skills: ["React", "StyledComponents"],
+    imgSrc: "/portafolio/img/animaciones.jpg",
+    title: "Animaciones Js",
+    skills: ["JavaScript", "CSS"],
     descripcion:
-      "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-    demoURL: "",
-    repoURL: "",
+      "Animacion en JavaScript de un cubo diseñado con las letras de mi nombre y apellido.",
+    demoURL: "https://temcdesign.github.io/cubeDisplay/",
+    repoURL: "https://github.com/TemcDesign/cubeDisplay",
     anim: "fade-right",
   },
 ];
@@ -88,10 +85,11 @@ const skillIcons = {
   React: "skill-icons:react-dark",
   Astro: "skill-icons:astro",
   CSS: "skill-icons:css",
-  Sass: "skill-icons:sass",
-  StyledComponents: "skill-icons:styledcomponents",
-  Bootstrap: "skill-icons:bootstrap",
   Tailwind: "skill-icons:tailwindcss-dark",
+  Photoshop: "skill-icons:photoshop",
+  Figma: "skill-icons:figma-light",
+  Illustrator: "skill-icons:illustrator",
+  NextJS: "skill-icons:nextjs-light",
 };
 
 /**

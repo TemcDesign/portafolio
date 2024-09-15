@@ -2,7 +2,7 @@ export const mainMenu = [
   { link: "#", content: "Inicio", icon: "lucide:home" },
   { link: "#about", content: "Sobre mi", icon: "octicon:person-24" },
   { link: "#portafolio", content: "Portafolio", icon: "carbon:portfolio" },
-  { link: "#blog", content: "Blog", icon: "mdi:blog" },
+  //{ link: "#blog", content: "Blog", icon: "mdi:blog" },
 ];
 
 export const menuBlog = [
